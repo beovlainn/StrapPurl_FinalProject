@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "StrapPurl_FinalProject", "StrapPurl_FinalProject\StrapPurl_FinalProject.pyproj", "{21F21D69-B07E-4B94-8094-D9DEA6C6F26E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21F21D69-B07E-4B94-8094-D9DEA6C6F26E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F21D69-B07E-4B94-8094-D9DEA6C6F26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C99656F3-DB35-4D88-93BD-44430A1B4EF6}
+	EndGlobalSection
+EndGlobal
