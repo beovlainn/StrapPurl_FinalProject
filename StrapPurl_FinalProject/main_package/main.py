@@ -23,3 +23,7 @@ if __name__ == "__main__":
 
     # Call the print words method to extract the location data from the indices provided 
     LocationDecoder.print_words_from_dictionary("Data/EncryptedGroupHints Spring 2025.json", key="Strap Purl")
+
+    print("")
+
+    
