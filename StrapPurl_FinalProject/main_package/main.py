@@ -26,4 +26,11 @@ if __name__ == "__main__":
 
     print("")
 
-    
+    fernet_key = "-OsSZAjnaAPY4-s9Tb0C55mgIAcaTvCePiUaBJo2ibM="
+    movie_tool = MovieDecryptor(
+        "Strap Purl",
+        "Data/TeamsAndEncryptedMessagesForDistribution.json",
+        fernet_key
+    )
+    movie = movie_tool.decrypt_movie_title()
+    print("Decrypted Movie Title:", movie)

@@ -16,3 +16,16 @@ class MovieDecryptor:
         self.team_name = team_name
         self.encrypted_file_path = encrypted_file_path
         self.fernet_key = fernet_key_str.encode()
+    
+    def decrypt_movie_title(self):
+        """
+        Decrypts the movie title for the specified team using the provided Fernet key.
+        @return: The decrypted movie title as a string.
+        """
+        with open(self.encrypted_file_path, 'r') as f:
+            encrypted_data = json.load(f)
+
+        encrypted_message = encrypted_data[self.team_name][0].encode()
+        fernet = Fernet(self.fernet_key)
+        decrypted = fernet.decrypt(encrypted_message).decode()
+        return decrypted
