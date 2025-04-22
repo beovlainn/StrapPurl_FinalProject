@@ -1,3 +1,18 @@
+# File Name : location_decoder.py
+# Student Name: Evan Bolin and Ian McDaniel
+# email: bolinen@mail.uc.edu and mcdanip@mail.uc.edu
+# Assignment Number: Final Project
+# Due Date: 4/30/25
+# Course #/Section: IS 4010-001
+# Semester/Year: Spring 2025
+# Brief Description of the assignment: Decode a location and movie name and take a group photo holding up a sign with 
+# a famous quote from that movie and add logic to display that photo within the project.
+
+# Brief Description of what this module does: Ties together content from throughout the semester in a final group project.
+# Citations: https://openai.com/chatgpt/
+
+# Anything else that's relevant: The cryptography package is required for the code to run
+
 from cryptography.fernet import Fernet
 import json
 
