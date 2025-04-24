@@ -34,3 +34,8 @@ if __name__ == "__main__":
     )
     movie = movie_tool.decrypt_movie_title()
     print("Decrypted Movie Title:", movie)
+
+
+    loader = PhotoLoader("image_package", "FinalProjectPhoto.jpg")
+    loader.load_image()
+    loader.show_image()
