@@ -55,6 +55,7 @@
     <Content Include="Data\EncryptedGroupHints Spring 2025.json" />
     <Content Include="Data\TeamsAndEncryptedMessagesForDistribution.json" />
     <Content Include="Data\UCEnglish.txt" />
+    <Content Include="image_package\FinalProjectPhoto.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
